@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matchup</title>
+</head>
+
+<body>
+    <span>Team 1:</span>
+    <br>
+    <br>
+
+    <!-- Team 1 Hud -->
+    <button onclick="subtractTeam1()">-</button>
+        <!-- Team 1 Select -->
+        <select name="team1name" id="team1Name">
+            <option value="">--Pick a Team--</option>
+            <option value="4m1c">4M1C</option>
+            <option value="hope">AOE Hope</option>
+            <option value="lotus">Lotus</option>
+            <option value="mg">MG Infusion</option>
+            <option value="lotus">Lotus</option>
+            <option value="hope">AOE Hope</option>
+            <option value="hope">AOE Hope</option>
+            <option value="hope">AOE Hope</option>
+            </select>
+    <button onclick="addTeam1()">+</button>
+
+    <br>
+    <br>
+
+    <span>Team 2:</span>
+    <br>
+    <br>
+
+    <button onclick="subtractTeam2()">-</button>
+    <input type="text" id="team2Name">
+    <button onclick="addTeam2()">+</button>
+    <br>
+    <br>
+
+    <button onclick="update()">Update Teams</button>
+    <button onclick="swapTeams(); swapScores()">Swap</button>
+    <button onclick="resetScore()">Clear #s</button>
+
+    <script src="teams.js"></script>
+    <script src="score.js"></script>
+</body>
+
+</html>
