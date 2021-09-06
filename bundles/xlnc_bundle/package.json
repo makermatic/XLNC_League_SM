@@ -52,7 +52,7 @@
             }
         ],
         "graphics": [{
-                "file": "VAL_scoreboard.html",
+                "file": "inGame.html",
                 "width": 1920,
                 "height": 1080
             },
@@ -68,11 +68,6 @@
             },
             {
                 "file": "Post_Game.html",
-                "width": 1920,
-                "height": 1080
-            },
-            {
-                "file": "Intermission.html",
                 "width": 1920,
                 "height": 1080
             },
