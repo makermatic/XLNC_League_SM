@@ -8,7 +8,7 @@ body {
     opacity: 1;
 }
 
-#leftCaster {
+#analyst1 {
     position: absolute;
     top: 862px;
     left: 267px;
@@ -23,7 +23,7 @@ body {
     -webkit-text-stroke-width: .5px;
 }
 
-#rightCaster {
+#analyst2 {
     position: absolute;
     top: 862px;
     left: 967px;
