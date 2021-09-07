@@ -12,6 +12,12 @@
         "nodecg-bundle"
     ],
     "nodecg": {
+        "soundCues": [{
+            "name": "test",
+            "defaultVolume": 70,
+            "assignable": false,
+            "defaultFile": "sounds/test.ogg"
+        }],
         "assetCategories": [{
                 "name": "team logos",
                 "title": "Team Logos",
@@ -58,6 +64,11 @@
             },
             {
                 "file": "Analyst_Desk.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "AC_Desk.html",
                 "width": 1920,
                 "height": 1080
             },
