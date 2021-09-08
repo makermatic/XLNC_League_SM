@@ -32,3 +32,20 @@ body {
     /* Score for Team 2 */
     left: 1817px;
 }
+
+.teamImage {
+    position: absolute;
+    border: 0;
+    width: 382px;
+    height: 383px;
+    top: -45px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 54%, 0 54%);
+}
+
+#team1Image {
+    left: 420px;
+}
+
+#team2Image {
+    left: 1085px;
+}
