@@ -1,0 +1,54 @@
+{
+    "name": "lanebylane",
+    "version": "1.0.0",
+    "files": [
+        "dashboard",
+        "graphics",
+        "extension.js",
+        "extension"
+    ],
+    "keywords": [
+        "",
+        "nodecg-bundle"
+    ],
+    "nodecg": {
+        "soundCues": [{
+            "name": "test",
+            "defaultVolume": 70,
+            "assignable": false,
+            "defaultFile": "sounds/test.ogg"
+        }],
+        "assetCategories": [{
+                "name": "team logos",
+                "title": "Team Logos",
+                "allowedTypes": ["jpg", "jpeg", "gif", "png"]
+            },
+            {
+                "name": "jsons",
+                "title": "JSONS",
+                "allowedTypes": ["json"]
+            },
+            {
+                "name": "stingers",
+                "title": "Stingers",
+                "allowedTypes": ["mov", "mp4", "mkv"]
+            }
+        ],
+        "compatibleRange": "^1.1.1",
+        "dashboardPanels": [{
+            "name": "lanebyLane",
+            "title": "Lane By Lane",
+            "width": 2,
+            "file": "dashboard.html",
+            "headerColor": "#525F78"
+        }],
+        "graphics": [{
+            "file": "MainLayout.html",
+            "width": 1920,
+            "height": 1080
+        }]
+    },
+    "dependencies": {
+        "gsap": "^3.6.0"
+    }
+}
