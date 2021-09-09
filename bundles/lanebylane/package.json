@@ -56,10 +56,31 @@
             "headerColor": "#525F78"
         }],
         "graphics": [{
-            "file": "MainLayout.html",
-            "width": 1920,
-            "height": 1080
-        }]
+                "file": "MainLayout.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "Player1.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "Player2.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "Player3.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "Player4.html",
+                "width": 1920,
+                "height": 1080
+            }
+        ]
     },
     "dependencies": {
         "gsap": "^3.6.0"
