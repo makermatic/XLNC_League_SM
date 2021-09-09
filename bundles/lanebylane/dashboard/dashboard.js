@@ -22,6 +22,7 @@ function updateQuestion() {
 
 function addP1() {
     p1Rep.value = p1Rep.value + 100
+    nodecg.sendMessage('pointUp')
 }
 
 function subtractP1() {
