@@ -1,0 +1,79 @@
+{
+    "name": "family_feud",
+    "version": "1.0.0",
+    "files": [
+        "dashboard",
+        "graphics",
+        "extension.js",
+        "extension"
+    ],
+    "keywords": [
+        "",
+        "nodecg-bundle"
+    ],
+    "nodecg": {
+        "assetCategories": [{
+                "name": "team logos",
+                "title": "Team Logos",
+                "allowedTypes": ["jpg", "jpeg", "gif", "png"]
+            },
+            {
+                "name": "jsons",
+                "title": "JSONS",
+                "allowedTypes": ["json"]
+            },
+            {
+                "name": "stingers",
+                "title": "Stingers",
+                "allowedTypes": ["mov", "mp4", "mkv"]
+            }
+        ],
+        "compatibleRange": "^1.1.1",
+        "dashboardPanels": [{
+            "name": "xlncfeud",
+            "title": "XLNC Feud",
+            "width": 2,
+            "file": "dashboard.html",
+            "headerColor": "#525F78"
+        }],
+        "graphics": [{
+                "file": "MainLayout.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "Player1.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "Player2.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "Player3.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "Player4.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "Player5.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "Player6.html",
+                "width": 1920,
+                "height": 1080
+            }
+        ]
+    },
+    "dependencies": {
+        "gsap": "^3.6.0"
+    }
+}

@@ -2,6 +2,6 @@
     "port": 9090,
     "developer": false,
     "bundles": {
-        "enabled": ["xlnc_bundle", "lanebylane"]
+        "enabled": ["xlnc_bundle", "family_feud"]
     }
 }
