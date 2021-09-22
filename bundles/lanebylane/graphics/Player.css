@@ -1,0 +1,48 @@
+body {
+    background-color: #000712;
+    background-image: url("layouts/SingleCam.png");
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    opacity: 1;
+}
+
+#question {
+    position: absolute;
+    top: 839px;
+    left: 339px;
+    width: 1530px;
+    height: 138px;
+    text-align: left;
+    font: normal normal bold 114px/132px Trebuchet MS;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.player {
+    position: absolute;
+    top: 786px;
+    left: 750px;
+    width: 420px;
+    height: 101px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    font: normal normal bold 40px Trebuchet MS;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.score {
+    position: absolute;
+    top: 792px;
+    left: 1000px;
+    width: 420px;
+    height: 88px;
+    text-align: center;
+    font: normal normal bold 30px Trebuchet MS;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    opacity: 1;
+}
