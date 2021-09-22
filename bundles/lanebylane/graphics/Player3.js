@@ -13,5 +13,4 @@ nodecg.listenFor('updatePlayers', (data) => {
 
 p3Rep.on('change', (newVal) => {
     p3Score.innerHTML = newVal;
-    nodecg.playSound('yam')
 })

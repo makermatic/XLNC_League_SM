@@ -12,12 +12,6 @@
         "nodecg-bundle"
     ],
     "nodecg": {
-        "soundCues": [{
-            "name": "test",
-            "defaultVolume": 70,
-            "assignable": false,
-            "defaultFile": "sounds/test.ogg"
-        }],
         "assetCategories": [{
                 "name": "team logos",
                 "title": "Team Logos",

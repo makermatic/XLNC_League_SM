@@ -12,25 +12,6 @@
         "nodecg-bundle"
     ],
     "nodecg": {
-        "soundCues": [{
-                "name": "test",
-                "defaultVolume": 70,
-                "assignable": false,
-                "defaultFile": "sounds/test.ogg"
-            },
-            {
-                "name": "pointUp",
-                "defaultVolume": 70,
-                "assignable": false,
-                "defaultFile": "sounds/pointUp.mp3"
-            },
-            {
-                "name": "yam",
-                "defaultVolume": 70,
-                "assignable": false,
-                "defaultFile": "sounds/yam.ogg"
-            }
-        ],
         "assetCategories": [{
                 "name": "team logos",
                 "title": "Team Logos",
