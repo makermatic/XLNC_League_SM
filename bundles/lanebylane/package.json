@@ -12,25 +12,6 @@
         "nodecg-bundle"
     ],
     "nodecg": {
-        "soundCues": [{
-                "name": "test",
-                "defaultVolume": 70,
-                "assignable": false,
-                "defaultFile": "sounds/test.ogg"
-            },
-            {
-                "name": "pointUp",
-                "defaultVolume": 70,
-                "assignable": false,
-                "defaultFile": "sounds/pointUp.mp3"
-            },
-            {
-                "name": "yam",
-                "defaultVolume": 70,
-                "assignable": false,
-                "defaultFile": "sounds/yam.ogg"
-            }
-        ],
         "assetCategories": [{
                 "name": "team logos",
                 "title": "Team Logos",
@@ -56,31 +37,10 @@
             "headerColor": "#525F78"
         }],
         "graphics": [{
-                "file": "MainLayout.html",
-                "width": 1920,
-                "height": 1080
-            },
-            {
-                "file": "Player1.html",
-                "width": 1920,
-                "height": 1080
-            },
-            {
-                "file": "Player2.html",
-                "width": 1920,
-                "height": 1080
-            },
-            {
-                "file": "Player3.html",
-                "width": 1920,
-                "height": 1080
-            },
-            {
-                "file": "Player4.html",
-                "width": 1920,
-                "height": 1080
-            }
-        ]
+            "file": "MainLayout.html",
+            "width": 1920,
+            "height": 1080
+        }]
     },
     "dependencies": {
         "gsap": "^3.6.0"

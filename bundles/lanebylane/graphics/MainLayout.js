@@ -31,20 +31,16 @@ nodecg.listenFor('updatePlayers', (data) => {
 
 p1Rep.on('change', (newVal) => {
     p1Score.innerHTML = newVal;
-    nodecg.playSound('yam')
 })
 
 p2Rep.on('change', (newVal) => {
     p2Score.innerHTML = newVal;
-    nodecg.playSound('yam')
 })
 
 p3Rep.on('change', (newVal) => {
     p3Score.innerHTML = newVal;
-    nodecg.playSound('yam')
 })
 
 p4Rep.on('change', (newVal) => {
     p4Score.innerHTML = newVal;
-    nodecg.playSound('yam')
 })
