@@ -30,8 +30,8 @@
         ],
         "compatibleRange": "^1.1.1",
         "dashboardPanels": [{
-            "name": "lanebyLane",
-            "title": "Lane By Lane",
+            "name": "hottrivia",
+            "title": "Hot Trivia",
             "width": 2,
             "file": "dashboard.html",
             "headerColor": "#525F78"
