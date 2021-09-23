@@ -1,0 +1,73 @@
+body {
+    background-color: #000712;
+    background-image: url("layouts/MainLayout.png");
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    opacity: 1;
+}
+
+.player {
+    /* Master Properties for Players */
+    position: absolute;
+    top: 728px;
+    width: 420px;
+    height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font: normal normal bold 40px Trebuchet MS;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#question {
+    position: absolute;
+    top: 839px;
+    left: 339px;
+    width: 1530px;
+    height: 138px;
+    text-align: left;
+    font: normal normal bold 114px/132px Trebuchet MS;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#player1 {
+    left: 131px;
+}
+
+#player2 {
+    left: 751px;
+}
+
+#player3 {
+    left: 1371px;
+}
+
+.score {
+    /* Master Properties for Scores */
+    position: absolute;
+    top: 784px;
+    width: 397px;
+    height: 49px;
+    font: normal normal bold 40px Trebuchet MS;
+    color: #FFFFFF;
+    text-align: center;
+    opacity: 1;
+}
+
+#p1Score {
+    left: 142px;
+}
+
+#p2Score {
+    left: 762px;
+}
+
+#p3Score {
+    left: 1381px;
+}
